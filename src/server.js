@@ -12,7 +12,7 @@ const init = async () => {
     // port: process.env.PORT,
     // host: process.env.HOST,
     port: 5000,
-    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0',
+    host: process.env.NODE_ENV !== 'production' ? 'localhost' : '52.221.242.104',
     routes: {
       cors: {
         origin: ['*'],
