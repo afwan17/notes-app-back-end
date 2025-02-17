@@ -1,4 +1,4 @@
-const InvariantError = require('../../exceptions/InvariantEerror');
+const InvariantError = require('../../exceptions/InvariantError');
 const { CollaborationPayloadSchema } = require('./schema');
 
 const CollaborationsValidator = {
